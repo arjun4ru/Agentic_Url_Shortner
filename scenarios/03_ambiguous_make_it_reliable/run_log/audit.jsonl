@@ -1,0 +1,48 @@
+{"timestamp": 1785790451.7867584, "run_id": "run-20260804T022411-8b9301", "event_type": "run_start", "stage": "orchestrator", "scenario_type": "ambiguous"}
+{"timestamp": 1785790451.7886693, "run_id": "run-20260804T022411-8b9301", "event_type": "entry_gate", "stage": "requirements", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790451.7894542, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_start", "stage": "requirements", "attempt": 1}
+{"timestamp": 1785790451.7894542, "run_id": "run-20260804T022411-8b9301", "event_type": "approval", "stage": "requirements", "checkpoint": "ambiguous_scope_interpretation", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790451.7894542, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_success", "stage": "requirements", "attempt": 1, "summary": "Requirement normalized"}
+{"timestamp": 1785790451.797227, "run_id": "run-20260804T022411-8b9301", "event_type": "entry_gate", "stage": "design", "passed": true, "reason": ""}
+{"timestamp": 1785790451.7977645, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_start", "stage": "design", "attempt": 1}
+{"timestamp": 1785790451.7977645, "run_id": "run-20260804T022411-8b9301", "event_type": "approval", "stage": "design", "checkpoint": "design_plan_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790451.7977645, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_success", "stage": "design", "attempt": 1, "summary": "Design plan approved"}
+{"timestamp": 1785790451.8317015, "run_id": "run-20260804T022411-8b9301", "event_type": "snapshot", "stage": "implementation", "path": "C:\\Users\\rajas\\OneDrive\\Desktop\\Raja\\Agentic_URL_SHORTNER\\Agentic_Url_Shortner\\scenarios\\03_ambiguous_make_it_reliable\\run_log\\snapshots\\before_implementation_attempt"}
+{"timestamp": 1785790451.8317015, "run_id": "run-20260804T022411-8b9301", "event_type": "entry_gate", "stage": "implementation", "passed": true, "reason": ""}
+{"timestamp": 1785790451.8317015, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_start", "stage": "implementation", "attempt": 1}
+{"timestamp": 1785790451.8480988, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_success", "stage": "implementation", "attempt": 1, "summary": "Generated/patched 2 file(s)"}
+{"timestamp": 1785790451.8480988, "run_id": "run-20260804T022411-8b9301", "event_type": "entry_gate", "stage": "documentation", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790451.8480988, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_start", "stage": "documentation", "attempt": 1}
+{"timestamp": 1785790451.8480988, "run_id": "run-20260804T022411-8b9301", "event_type": "entry_gate", "stage": "testing", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790451.8480988, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_start", "stage": "testing", "attempt": 1}
+{"timestamp": 1785790451.8480988, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_success", "stage": "documentation", "attempt": 1, "summary": "README.md generated"}
+{"timestamp": 1785790454.4406004, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_success", "stage": "testing", "attempt": 1, "summary": "pytest exit code 0: 15 passed in 1.97s"}
+{"timestamp": 1785790454.4406004, "run_id": "run-20260804T022411-8b9301", "event_type": "entry_gate", "stage": "release_readiness", "passed": true, "reason": ""}
+{"timestamp": 1785790454.442608, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_start", "stage": "release_readiness", "attempt": 1}
+{"timestamp": 1785790454.442608, "run_id": "run-20260804T022411-8b9301", "event_type": "approval", "stage": "release_readiness", "checkpoint": "release_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790454.4479218, "run_id": "run-20260804T022411-8b9301", "event_type": "stage_success", "stage": "release_readiness", "attempt": 1, "summary": "Release approved and finalized"}
+{"timestamp": 1785790454.448843, "run_id": "run-20260804T022411-8b9301", "event_type": "run_end", "stage": "orchestrator", "status": "released"}
+{"timestamp": 1785790704.1893332, "run_id": "run-20260804T022824-2b9efb", "event_type": "run_start", "stage": "orchestrator", "scenario_type": "ambiguous"}
+{"timestamp": 1785790704.1893332, "run_id": "run-20260804T022824-2b9efb", "event_type": "entry_gate", "stage": "requirements", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790704.1893332, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_start", "stage": "requirements", "attempt": 1}
+{"timestamp": 1785790704.1981413, "run_id": "run-20260804T022824-2b9efb", "event_type": "approval", "stage": "requirements", "checkpoint": "ambiguous_scope_interpretation", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790704.2001498, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_success", "stage": "requirements", "attempt": 1, "summary": "Requirement normalized"}
+{"timestamp": 1785790704.2001498, "run_id": "run-20260804T022824-2b9efb", "event_type": "entry_gate", "stage": "design", "passed": true, "reason": ""}
+{"timestamp": 1785790704.2021565, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_start", "stage": "design", "attempt": 1}
+{"timestamp": 1785790704.2038863, "run_id": "run-20260804T022824-2b9efb", "event_type": "approval", "stage": "design", "checkpoint": "design_plan_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790704.2056327, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_success", "stage": "design", "attempt": 1, "summary": "Design plan approved"}
+{"timestamp": 1785790704.2589343, "run_id": "run-20260804T022824-2b9efb", "event_type": "snapshot", "stage": "implementation", "path": "C:\\Users\\rajas\\OneDrive\\Desktop\\Raja\\Agentic_URL_SHORTNER\\Agentic_Url_Shortner\\scenarios\\03_ambiguous_make_it_reliable\\run_log\\snapshots\\before_implementation_attempt"}
+{"timestamp": 1785790704.2589343, "run_id": "run-20260804T022824-2b9efb", "event_type": "entry_gate", "stage": "implementation", "passed": true, "reason": ""}
+{"timestamp": 1785790704.2589343, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_start", "stage": "implementation", "attempt": 1}
+{"timestamp": 1785790704.2754095, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_success", "stage": "implementation", "attempt": 1, "summary": "Generated/patched 2 file(s)"}
+{"timestamp": 1785790704.2765942, "run_id": "run-20260804T022824-2b9efb", "event_type": "entry_gate", "stage": "documentation", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790704.2765942, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_start", "stage": "documentation", "attempt": 1}
+{"timestamp": 1785790704.2786033, "run_id": "run-20260804T022824-2b9efb", "event_type": "entry_gate", "stage": "testing", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790704.2796407, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_start", "stage": "testing", "attempt": 1}
+{"timestamp": 1785790704.2850492, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_success", "stage": "documentation", "attempt": 1, "summary": "README.md generated"}
+{"timestamp": 1785790706.6977072, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_success", "stage": "testing", "attempt": 1, "summary": "pytest exit code 0: 15 passed in 1.91s"}
+{"timestamp": 1785790706.6977072, "run_id": "run-20260804T022824-2b9efb", "event_type": "entry_gate", "stage": "release_readiness", "passed": true, "reason": ""}
+{"timestamp": 1785790706.6977072, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_start", "stage": "release_readiness", "attempt": 1}
+{"timestamp": 1785790706.7020557, "run_id": "run-20260804T022824-2b9efb", "event_type": "approval", "stage": "release_readiness", "checkpoint": "release_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790706.7038229, "run_id": "run-20260804T022824-2b9efb", "event_type": "stage_success", "stage": "release_readiness", "attempt": 1, "summary": "Release approved and finalized"}
+{"timestamp": 1785790706.7053876, "run_id": "run-20260804T022824-2b9efb", "event_type": "run_end", "stage": "orchestrator", "status": "released"}

@@ -1,0 +1,69 @@
+{"timestamp": 1785790447.1154099, "run_id": "run-20260804T022407-da2699", "event_type": "run_start", "stage": "orchestrator", "scenario_type": "greenfield"}
+{"timestamp": 1785790447.1154099, "run_id": "run-20260804T022407-da2699", "event_type": "entry_gate", "stage": "requirements", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790447.1154099, "run_id": "run-20260804T022407-da2699", "event_type": "stage_start", "stage": "requirements", "attempt": 1}
+{"timestamp": 1785790447.1234303, "run_id": "run-20260804T022407-da2699", "event_type": "stage_success", "stage": "requirements", "attempt": 1, "summary": "Requirement normalized"}
+{"timestamp": 1785790447.1305265, "run_id": "run-20260804T022407-da2699", "event_type": "entry_gate", "stage": "design", "passed": true, "reason": ""}
+{"timestamp": 1785790447.1315382, "run_id": "run-20260804T022407-da2699", "event_type": "stage_start", "stage": "design", "attempt": 1}
+{"timestamp": 1785790447.1322052, "run_id": "run-20260804T022407-da2699", "event_type": "approval", "stage": "design", "checkpoint": "design_plan_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790447.1336956, "run_id": "run-20260804T022407-da2699", "event_type": "stage_success", "stage": "design", "attempt": 1, "summary": "Design plan approved"}
+{"timestamp": 1785790447.1336956, "run_id": "run-20260804T022407-da2699", "event_type": "snapshot", "stage": "implementation", "path": null}
+{"timestamp": 1785790447.1336956, "run_id": "run-20260804T022407-da2699", "event_type": "entry_gate", "stage": "implementation", "passed": true, "reason": ""}
+{"timestamp": 1785790447.1336956, "run_id": "run-20260804T022407-da2699", "event_type": "stage_start", "stage": "implementation", "attempt": 1}
+{"timestamp": 1785790447.1819189, "run_id": "run-20260804T022407-da2699", "event_type": "stage_success", "stage": "implementation", "attempt": 1, "summary": "Generated/patched 8 file(s)"}
+{"timestamp": 1785790447.1819189, "run_id": "run-20260804T022407-da2699", "event_type": "entry_gate", "stage": "documentation", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790447.1819189, "run_id": "run-20260804T022407-da2699", "event_type": "stage_start", "stage": "documentation", "attempt": 1}
+{"timestamp": 1785790447.1819189, "run_id": "run-20260804T022407-da2699", "event_type": "entry_gate", "stage": "testing", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790447.1839266, "run_id": "run-20260804T022407-da2699", "event_type": "stage_start", "stage": "testing", "attempt": 1}
+{"timestamp": 1785790447.187942, "run_id": "run-20260804T022407-da2699", "event_type": "stage_success", "stage": "documentation", "attempt": 1, "summary": "README.md generated"}
+{"timestamp": 1785790448.6037815, "run_id": "run-20260804T022407-da2699", "event_type": "stage_success", "stage": "testing", "attempt": 1, "summary": "pytest exit code 0: 7 passed in 0.73s"}
+{"timestamp": 1785790448.6037815, "run_id": "run-20260804T022407-da2699", "event_type": "entry_gate", "stage": "release_readiness", "passed": true, "reason": ""}
+{"timestamp": 1785790448.6057894, "run_id": "run-20260804T022407-da2699", "event_type": "stage_start", "stage": "release_readiness", "attempt": 1}
+{"timestamp": 1785790448.606603, "run_id": "run-20260804T022407-da2699", "event_type": "approval", "stage": "release_readiness", "checkpoint": "release_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790448.606603, "run_id": "run-20260804T022407-da2699", "event_type": "stage_success", "stage": "release_readiness", "attempt": 1, "summary": "Release approved and finalized"}
+{"timestamp": 1785790448.6104968, "run_id": "run-20260804T022407-da2699", "event_type": "run_end", "stage": "orchestrator", "status": "released"}
+{"timestamp": 1785790454.712966, "run_id": "run-20260804T022414-e2db8a", "event_type": "run_start", "stage": "orchestrator", "scenario_type": "greenfield"}
+{"timestamp": 1785790454.712966, "run_id": "run-20260804T022414-e2db8a", "event_type": "entry_gate", "stage": "requirements", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790454.712966, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_start", "stage": "requirements", "attempt": 1}
+{"timestamp": 1785790454.7237105, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_success", "stage": "requirements", "attempt": 1, "summary": "Requirement normalized"}
+{"timestamp": 1785790454.7237105, "run_id": "run-20260804T022414-e2db8a", "event_type": "entry_gate", "stage": "design", "passed": true, "reason": ""}
+{"timestamp": 1785790454.725254, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_start", "stage": "design", "attempt": 1}
+{"timestamp": 1785790454.725254, "run_id": "run-20260804T022414-e2db8a", "event_type": "approval", "stage": "design", "checkpoint": "design_plan_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790454.726798, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_success", "stage": "design", "attempt": 1, "summary": "Design plan approved"}
+{"timestamp": 1785790454.7680624, "run_id": "run-20260804T022414-e2db8a", "event_type": "snapshot", "stage": "implementation", "path": "C:\\Users\\rajas\\OneDrive\\Desktop\\Raja\\Agentic_URL_SHORTNER\\Agentic_Url_Shortner\\scenarios\\01_greenfield_build_shortener\\run_log\\snapshots\\before_implementation_attempt"}
+{"timestamp": 1785790454.7680624, "run_id": "run-20260804T022414-e2db8a", "event_type": "entry_gate", "stage": "implementation", "passed": true, "reason": ""}
+{"timestamp": 1785790454.7680624, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_start", "stage": "implementation", "attempt": 1}
+{"timestamp": 1785790454.850642, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_success", "stage": "implementation", "attempt": 1, "summary": "Generated/patched 8 file(s)"}
+{"timestamp": 1785790454.852119, "run_id": "run-20260804T022414-e2db8a", "event_type": "entry_gate", "stage": "documentation", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790454.852119, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_start", "stage": "documentation", "attempt": 1}
+{"timestamp": 1785790454.852119, "run_id": "run-20260804T022414-e2db8a", "event_type": "entry_gate", "stage": "testing", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790454.8541272, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_start", "stage": "testing", "attempt": 1}
+{"timestamp": 1785790454.8541272, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_success", "stage": "documentation", "attempt": 1, "summary": "README.md generated"}
+{"timestamp": 1785790456.100986, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_success", "stage": "testing", "attempt": 1, "summary": "pytest exit code 0: 7 passed in 0.60s"}
+{"timestamp": 1785790456.1020038, "run_id": "run-20260804T022414-e2db8a", "event_type": "entry_gate", "stage": "release_readiness", "passed": true, "reason": ""}
+{"timestamp": 1785790456.1020038, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_start", "stage": "release_readiness", "attempt": 1}
+{"timestamp": 1785790456.1020038, "run_id": "run-20260804T022414-e2db8a", "event_type": "approval", "stage": "release_readiness", "checkpoint": "release_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790456.1040099, "run_id": "run-20260804T022414-e2db8a", "event_type": "stage_success", "stage": "release_readiness", "attempt": 1, "summary": "Release approved and finalized"}
+{"timestamp": 1785790456.1059556, "run_id": "run-20260804T022414-e2db8a", "event_type": "run_end", "stage": "orchestrator", "status": "released"}
+{"timestamp": 1785790569.4528186, "run_id": "run-20260804T022609-0a9d28", "event_type": "run_start", "stage": "orchestrator", "scenario_type": "greenfield"}
+{"timestamp": 1785790569.4609694, "run_id": "run-20260804T022609-0a9d28", "event_type": "entry_gate", "stage": "requirements", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790569.4609694, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_start", "stage": "requirements", "attempt": 1}
+{"timestamp": 1785790569.4749348, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_success", "stage": "requirements", "attempt": 1, "summary": "Requirement normalized"}
+{"timestamp": 1785790569.4762692, "run_id": "run-20260804T022609-0a9d28", "event_type": "entry_gate", "stage": "design", "passed": true, "reason": ""}
+{"timestamp": 1785790569.4762692, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_start", "stage": "design", "attempt": 1}
+{"timestamp": 1785790569.477391, "run_id": "run-20260804T022609-0a9d28", "event_type": "approval", "stage": "design", "checkpoint": "design_plan_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790569.477391, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_success", "stage": "design", "attempt": 1, "summary": "Design plan approved"}
+{"timestamp": 1785790569.5390215, "run_id": "run-20260804T022609-0a9d28", "event_type": "snapshot", "stage": "implementation", "path": "C:\\Users\\rajas\\OneDrive\\Desktop\\Raja\\Agentic_URL_SHORTNER\\Agentic_Url_Shortner\\scenarios\\01_greenfield_build_shortener\\run_log\\snapshots\\before_implementation_attempt"}
+{"timestamp": 1785790569.5390215, "run_id": "run-20260804T022609-0a9d28", "event_type": "entry_gate", "stage": "implementation", "passed": true, "reason": ""}
+{"timestamp": 1785790569.5402799, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_start", "stage": "implementation", "attempt": 1}
+{"timestamp": 1785790569.602967, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_success", "stage": "implementation", "attempt": 1, "summary": "Generated/patched 8 file(s)"}
+{"timestamp": 1785790569.602967, "run_id": "run-20260804T022609-0a9d28", "event_type": "entry_gate", "stage": "documentation", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790569.602967, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_start", "stage": "documentation", "attempt": 1}
+{"timestamp": 1785790569.6049733, "run_id": "run-20260804T022609-0a9d28", "event_type": "entry_gate", "stage": "testing", "passed": true, "reason": "no preconditions"}
+{"timestamp": 1785790569.6049733, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_start", "stage": "testing", "attempt": 1}
+{"timestamp": 1785790569.6069796, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_success", "stage": "documentation", "attempt": 1, "summary": "README.md generated"}
+{"timestamp": 1785790570.699478, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_success", "stage": "testing", "attempt": 1, "summary": "pytest exit code 0: 7 passed in 0.54s"}
+{"timestamp": 1785790570.699478, "run_id": "run-20260804T022609-0a9d28", "event_type": "entry_gate", "stage": "release_readiness", "passed": true, "reason": ""}
+{"timestamp": 1785790570.7043564, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_start", "stage": "release_readiness", "attempt": 1}
+{"timestamp": 1785790570.7043564, "run_id": "run-20260804T022609-0a9d28", "event_type": "approval", "stage": "release_readiness", "checkpoint": "release_approval", "approved": true, "actor": "auto-approver(config-default)"}
+{"timestamp": 1785790570.7063618, "run_id": "run-20260804T022609-0a9d28", "event_type": "stage_success", "stage": "release_readiness", "attempt": 1, "summary": "Release approved and finalized"}
+{"timestamp": 1785790570.7063618, "run_id": "run-20260804T022609-0a9d28", "event_type": "run_end", "stage": "orchestrator", "status": "released"}

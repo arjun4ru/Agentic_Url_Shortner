@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg
+build/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: scenarios/*/run_log/ is intentionally NOT ignored.
+# Those files are audit trails proving the orchestrator actually ran
+# each scenario end-to-end, and are graded evidence per docs/DESIGN.md.

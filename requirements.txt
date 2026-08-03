@@ -1,0 +1,7 @@
+# orchestrator/ itself only needs the Python standard library.
+# These are for the url_shortener/ product and for running tests.
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+pytest==8.3.3
+httpx==0.27.2

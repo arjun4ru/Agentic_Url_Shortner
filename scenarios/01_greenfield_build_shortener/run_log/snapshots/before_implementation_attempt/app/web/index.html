@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agentic URL Shortener</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Agentic URL Shortener</h1>
+    <p class="subtitle">Generated end-to-end by an agentic SDLC orchestrator.</p>
+
+    <form id="shorten-form">
+      <label for="long_url">Long URL</label>
+      <input type="url" id="long_url" name="long_url" placeholder="https://example.com/very/long/path" required />
+
+      <label for="custom_alias">Custom alias (optional)</label>
+      <input type="text" id="custom_alias" name="custom_alias" placeholder="my-alias" />
+
+      <label for="ttl_seconds">Expires after, seconds (optional)</label>
+      <input type="number" id="ttl_seconds" name="ttl_seconds" placeholder="3600" min="1" />
+
+      <button type="submit">Shorten</button>
+    </form>
+
+    <div id="result" class="result hidden">
+      <p>Short URL: <a id="short-link" href="#" target="_blank" rel="noopener"></a></p>
+      <button id="copy-btn" type="button">Copy</button>
+    </div>
+    <div id="error" class="error hidden"></div>
+
+    <hr />
+
+    <h2>Check analytics</h2>
+    <form id="analytics-form">
+      <label for="code">Short code</label>
+      <input type="text" id="code" name="code" placeholder="e.g. 2p1" required />
+      <button type="submit">Look up</button>
+    </form>
+    <pre id="analytics-result" class="hidden"></pre>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
